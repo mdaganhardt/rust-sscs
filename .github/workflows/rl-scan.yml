@@ -36,7 +36,7 @@ jobs:
           rl-timeout: 5
           rl-submit-only: false
           artifact-to-scan: 'target/debug/rust-codespaces'
-          rl-package-url: 'ProjectNameHere/rust-codespaces@1.0'
+          rl-package-url: 'austinb/Austin_Rust_App@1.1'
 
       - name: Output scan status
         if: success() || failure()
