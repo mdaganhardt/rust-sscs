@@ -36,7 +36,7 @@ jobs:
           rl-timeout: 5
           rl-submit-only: false
           artifact-to-scan: 'target/debug/rust-codespaces'
-          rl-package-url: 'MichaelD/myrustapp1.2'
+          rl-package-url: 'MichaelD/myrustapp@1.2'
 
       - name: Output scan status
         if: success() || failure()
